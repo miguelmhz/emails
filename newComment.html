@@ -1,4 +1,3 @@
-
 <div
   style="margin:auto;padding:0;font-family:montserrat,sans-serif;max-width:700px;font-size:0.813rem;background-color:white">
 
@@ -14,28 +13,32 @@
 
       <tr>
         <td style="padding:30px;font-size:20px;border-top:1px solid #ebebeb;color:#131313;font-weight:bold">
-            Contraseña olvidada
+            Nuevo comentario
         </td>
       </tr>
       <tr>
         <td style="padding:0 30px 30px;font-size:15px;color:#131313">
-            Hemos recibido tu peticion para obtener una nueva contraseña por favor da click en el link debajo para ingresar la nueva contraseña.
+            Queremos informarte que el equipo de Vazal Corporativo Jurídico ha realizado un nuevo comentario en la bitácora del químico <b style="color: #12182C;">${chemistName}</b>. A continuación, te compartimos el contenido del comentario:        
         </td>
       </tr>
 
       <tr>
         <td align="center">
-          <a href=${url_aceptacion}
-            style="display:inline-block;padding:10px 30px;background-color:#233058;color:white;text-decoration:none;font-size:15px;border-radius:5px"
-            target="_blank">
-            Renovar contraseña
-          </a>
+            <ul style="padding: 10px;background: #efefef;border: 1px solid #f3f3f3;border-radius: 8px;">
+                <span>
+                    ${logDetails}
+                </span>
+
+            </ul>
         </td>
       </tr>
-
       <tr>
-        <td style="padding:30px">
-          
+        <td align="start" style="font-size: 15px; padding: 20px 0px;">
+            Te invitamos a revisar este comentario y los detalles adicionales en la plataforma. Puedes acceder directamente a través del siguiente enlace:
+          <a href=${platformLink}
+            target="_blank">
+            Plataforma
+          </a>
         </td>
       </tr>
 
